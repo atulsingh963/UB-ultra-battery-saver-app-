@@ -1,0 +1,200 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.atul.ub"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+11-->D:\Projects\UB\app\src\main\AndroidManifest.xml:5:5-109
+11-->D:\Projects\UB\app\src\main\AndroidManifest.xml:5:22-70
+12    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+12-->D:\Projects\UB\app\src\main\AndroidManifest.xml:6:5-119
+12-->D:\Projects\UB\app\src\main\AndroidManifest.xml:6:22-74
+13
+14    <permission
+14-->[androidx.core:core:1.15.0] C:\Users\atul\.gradle\caches\8.11.1\transforms\3bdb80047749faf29a6311d7cc059c04\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+15        android:name="com.atul.ub.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.15.0] C:\Users\atul\.gradle\caches\8.11.1\transforms\3bdb80047749faf29a6311d7cc059c04\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.15.0] C:\Users\atul\.gradle\caches\8.11.1\transforms\3bdb80047749faf29a6311d7cc059c04\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.atul.ub.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.15.0] C:\Users\atul\.gradle\caches\8.11.1\transforms\3bdb80047749faf29a6311d7cc059c04\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.15.0] C:\Users\atul\.gradle\caches\8.11.1\transforms\3bdb80047749faf29a6311d7cc059c04\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->D:\Projects\UB\app\src\main\AndroidManifest.xml:8:5-62:19
+21        android:allowBackup="true"
+21-->D:\Projects\UB\app\src\main\AndroidManifest.xml:9:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.15.0] C:\Users\atul\.gradle\caches\8.11.1\transforms\3bdb80047749faf29a6311d7cc059c04\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+23        android:extractNativeLibs="false"
+24        android:label="@string/app_name"
+24-->D:\Projects\UB\app\src\main\AndroidManifest.xml:10:9-41
+25        android:supportsRtl="true"
+25-->D:\Projects\UB\app\src\main\AndroidManifest.xml:11:9-35
+26        android:theme="@android:style/Theme.DeviceDefault.NoActionBar" >
+26-->D:\Projects\UB\app\src\main\AndroidManifest.xml:12:9-71
+27        <activity
+27-->D:\Projects\UB\app\src\main\AndroidManifest.xml:14:9-29:20
+28            android:name="com.atul.ub.MainActivity"
+28-->D:\Projects\UB\app\src\main\AndroidManifest.xml:15:13-41
+29            android:exported="true"
+29-->D:\Projects\UB\app\src\main\AndroidManifest.xml:16:13-36
+30            android:launchMode="singleTask"
+30-->D:\Projects\UB\app\src\main\AndroidManifest.xml:17:13-44
+31            android:stateNotNeeded="true"
+31-->D:\Projects\UB\app\src\main\AndroidManifest.xml:18:13-42
+32            android:theme="@android:style/Theme.DeviceDefault.NoActionBar" >
+32-->D:\Projects\UB\app\src\main\AndroidManifest.xml:19:13-75
+33            <intent-filter>
+33-->D:\Projects\UB\app\src\main\AndroidManifest.xml:20:13-24:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->D:\Projects\UB\app\src\main\AndroidManifest.xml:21:17-69
+34-->D:\Projects\UB\app\src\main\AndroidManifest.xml:21:25-66
+35
+36                <category android:name="android.intent.category.HOME" />
+36-->D:\Projects\UB\app\src\main\AndroidManifest.xml:22:17-73
+36-->D:\Projects\UB\app\src\main\AndroidManifest.xml:22:27-70
+37                <category android:name="android.intent.category.DEFAULT" />
+37-->D:\Projects\UB\app\src\main\AndroidManifest.xml:23:17-76
+37-->D:\Projects\UB\app\src\main\AndroidManifest.xml:23:27-73
+38            </intent-filter>
+39            <intent-filter>
+39-->D:\Projects\UB\app\src\main\AndroidManifest.xml:25:13-28:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->D:\Projects\UB\app\src\main\AndroidManifest.xml:21:17-69
+40-->D:\Projects\UB\app\src\main\AndroidManifest.xml:21:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->D:\Projects\UB\app\src\main\AndroidManifest.xml:27:17-77
+42-->D:\Projects\UB\app\src\main\AndroidManifest.xml:27:27-74
+43            </intent-filter>
+44        </activity>
+45
+46        <service
+46-->D:\Projects\UB\app\src\main\AndroidManifest.xml:31:9-39:19
+47            android:name="com.atul.ub.firewall.UBFirewallService"
+47-->D:\Projects\UB\app\src\main\AndroidManifest.xml:32:13-55
+48            android:exported="false"
+48-->D:\Projects\UB\app\src\main\AndroidManifest.xml:35:13-37
+49            android:label="UB Local Per-App Firewall"
+49-->D:\Projects\UB\app\src\main\AndroidManifest.xml:33:13-54
+50            android:permission="android.permission.BIND_VPN_SERVICE" >
+50-->D:\Projects\UB\app\src\main\AndroidManifest.xml:34:13-69
+51            <intent-filter>
+51-->D:\Projects\UB\app\src\main\AndroidManifest.xml:36:13-38:29
+52                <action android:name="android.net.VpnService" />
+52-->D:\Projects\UB\app\src\main\AndroidManifest.xml:37:17-65
+52-->D:\Projects\UB\app\src\main\AndroidManifest.xml:37:25-62
+53            </intent-filter>
+54        </service>
+55        <service
+55-->D:\Projects\UB\app\src\main\AndroidManifest.xml:41:9-49:19
+56            android:name="com.atul.ub.notification.UBNotificationListenerService"
+56-->D:\Projects\UB\app\src\main\AndroidManifest.xml:42:13-71
+57            android:exported="true"
+57-->D:\Projects\UB\app\src\main\AndroidManifest.xml:45:13-36
+58            android:label="UB Notification Manager"
+58-->D:\Projects\UB\app\src\main\AndroidManifest.xml:43:13-52
+59            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+59-->D:\Projects\UB\app\src\main\AndroidManifest.xml:44:13-87
+60            <intent-filter>
+60-->D:\Projects\UB\app\src\main\AndroidManifest.xml:46:13-48:29
+61                <action android:name="android.service.notification.NotificationListenerService" />
+61-->D:\Projects\UB\app\src\main\AndroidManifest.xml:47:17-99
+61-->D:\Projects\UB\app\src\main\AndroidManifest.xml:47:25-96
+62            </intent-filter>
+63        </service>
+64        <service
+64-->D:\Projects\UB\app\src\main\AndroidManifest.xml:51:9-60:19
+65            android:name="com.atul.ub.tile.UBSaverTileService"
+65-->D:\Projects\UB\app\src\main\AndroidManifest.xml:52:13-52
+66            android:exported="true"
+66-->D:\Projects\UB\app\src\main\AndroidManifest.xml:56:13-36
+67            android:icon="@android:drawable/ic_dialog_alert"
+67-->D:\Projects\UB\app\src\main\AndroidManifest.xml:53:13-61
+68            android:label="Super Saver"
+68-->D:\Projects\UB\app\src\main\AndroidManifest.xml:54:13-40
+69            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE" >
+69-->D:\Projects\UB\app\src\main\AndroidManifest.xml:55:13-77
+70            <intent-filter>
+70-->D:\Projects\UB\app\src\main\AndroidManifest.xml:57:13-59:29
+71                <action android:name="android.service.quicksettings.action.QS_TILE" />
+71-->D:\Projects\UB\app\src\main\AndroidManifest.xml:58:17-87
+71-->D:\Projects\UB\app\src\main\AndroidManifest.xml:58:25-84
+72            </intent-filter>
+73        </service>
+74
+75        <provider
+75-->[androidx.emoji2:emoji2:1.3.0] C:\Users\atul\.gradle\caches\8.11.1\transforms\dd5c9a94b68479d9498f489c7c4cc2a5\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+76            android:name="androidx.startup.InitializationProvider"
+76-->[androidx.emoji2:emoji2:1.3.0] C:\Users\atul\.gradle\caches\8.11.1\transforms\dd5c9a94b68479d9498f489c7c4cc2a5\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+77            android:authorities="com.atul.ub.androidx-startup"
+77-->[androidx.emoji2:emoji2:1.3.0] C:\Users\atul\.gradle\caches\8.11.1\transforms\dd5c9a94b68479d9498f489c7c4cc2a5\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+78            android:exported="false" >
+78-->[androidx.emoji2:emoji2:1.3.0] C:\Users\atul\.gradle\caches\8.11.1\transforms\dd5c9a94b68479d9498f489c7c4cc2a5\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+79            <meta-data
+79-->[androidx.emoji2:emoji2:1.3.0] C:\Users\atul\.gradle\caches\8.11.1\transforms\dd5c9a94b68479d9498f489c7c4cc2a5\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+80                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+80-->[androidx.emoji2:emoji2:1.3.0] C:\Users\atul\.gradle\caches\8.11.1\transforms\dd5c9a94b68479d9498f489c7c4cc2a5\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+81                android:value="androidx.startup" />
+81-->[androidx.emoji2:emoji2:1.3.0] C:\Users\atul\.gradle\caches\8.11.1\transforms\dd5c9a94b68479d9498f489c7c4cc2a5\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+82            <meta-data
+82-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\atul\.gradle\caches\8.11.1\transforms\8cdcc7b5ff40f6cfbf492dda898e173f\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+83                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+83-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\atul\.gradle\caches\8.11.1\transforms\8cdcc7b5ff40f6cfbf492dda898e173f\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+84                android:value="androidx.startup" />
+84-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\atul\.gradle\caches\8.11.1\transforms\8cdcc7b5ff40f6cfbf492dda898e173f\transformed\jetified-lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+85            <meta-data
+85-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\atul\.gradle\caches\8.11.1\transforms\a09f9ca6dada1dcb31fd4a5a1508c148\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+86                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+86-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\atul\.gradle\caches\8.11.1\transforms\a09f9ca6dada1dcb31fd4a5a1508c148\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+87                android:value="androidx.startup" />
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\atul\.gradle\caches\8.11.1\transforms\a09f9ca6dada1dcb31fd4a5a1508c148\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+88        </provider>
+89
+90        <receiver
+90-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\atul\.gradle\caches\8.11.1\transforms\a09f9ca6dada1dcb31fd4a5a1508c148\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+91            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+91-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\atul\.gradle\caches\8.11.1\transforms\a09f9ca6dada1dcb31fd4a5a1508c148\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+92            android:directBootAware="false"
+92-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\atul\.gradle\caches\8.11.1\transforms\a09f9ca6dada1dcb31fd4a5a1508c148\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+93            android:enabled="true"
+93-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\atul\.gradle\caches\8.11.1\transforms\a09f9ca6dada1dcb31fd4a5a1508c148\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+94            android:exported="true"
+94-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\atul\.gradle\caches\8.11.1\transforms\a09f9ca6dada1dcb31fd4a5a1508c148\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+95            android:permission="android.permission.DUMP" >
+95-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\atul\.gradle\caches\8.11.1\transforms\a09f9ca6dada1dcb31fd4a5a1508c148\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+96            <intent-filter>
+96-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\atul\.gradle\caches\8.11.1\transforms\a09f9ca6dada1dcb31fd4a5a1508c148\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+97                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+97-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\atul\.gradle\caches\8.11.1\transforms\a09f9ca6dada1dcb31fd4a5a1508c148\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+97-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\atul\.gradle\caches\8.11.1\transforms\a09f9ca6dada1dcb31fd4a5a1508c148\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+98            </intent-filter>
+99            <intent-filter>
+99-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\atul\.gradle\caches\8.11.1\transforms\a09f9ca6dada1dcb31fd4a5a1508c148\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+100                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+100-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\atul\.gradle\caches\8.11.1\transforms\a09f9ca6dada1dcb31fd4a5a1508c148\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+100-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\atul\.gradle\caches\8.11.1\transforms\a09f9ca6dada1dcb31fd4a5a1508c148\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+101            </intent-filter>
+102            <intent-filter>
+102-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\atul\.gradle\caches\8.11.1\transforms\a09f9ca6dada1dcb31fd4a5a1508c148\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+103                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+103-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\atul\.gradle\caches\8.11.1\transforms\a09f9ca6dada1dcb31fd4a5a1508c148\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+103-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\atul\.gradle\caches\8.11.1\transforms\a09f9ca6dada1dcb31fd4a5a1508c148\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+104            </intent-filter>
+105            <intent-filter>
+105-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\atul\.gradle\caches\8.11.1\transforms\a09f9ca6dada1dcb31fd4a5a1508c148\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+106                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+106-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\atul\.gradle\caches\8.11.1\transforms\a09f9ca6dada1dcb31fd4a5a1508c148\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+106-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\atul\.gradle\caches\8.11.1\transforms\a09f9ca6dada1dcb31fd4a5a1508c148\transformed\jetified-profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+107            </intent-filter>
+108        </receiver>
+109    </application>
+110
+111</manifest>
